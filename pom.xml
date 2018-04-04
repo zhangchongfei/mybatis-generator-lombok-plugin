@@ -23,4 +23,18 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>jtb</id>
+            <name>Sixi Project Release</name>
+            <url>http://repo.internal.sixi.com/repository/maven-releases/</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>jtb</id>
+            <name>Sixi Project SNAPSHOTS</name>
+            <url>http://repo.internal.sixi.com/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
