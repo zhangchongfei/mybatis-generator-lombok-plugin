@@ -1,0 +1,1 @@
+# mybatis-generator-lombok-plugin

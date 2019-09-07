@@ -1,4 +1,4 @@
-package pw.yumc.mybatis.generator.plugins;
+package zcf.mybatis.generator.plugins;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -13,7 +13,7 @@ import org.mybatis.generator.api.dom.java.Method;
 import org.mybatis.generator.api.dom.java.TopLevelClass;
 
 /**
- * @author MiaoWoo
+ * @author zhangchongfei
  */
 public class LombokPlugin extends PluginAdapter {
     private String javadoc;
@@ -32,11 +32,10 @@ public class LombokPlugin extends PluginAdapter {
         javadoc = "/**\n" +
                   " * Created with Mybatis Generator Plugin\n" +
                   " *\n" +
-                  " * @author MiaoWoo\n" +
+                  " * @author zcf\n" +
                   " * Created on " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm")) + ".\n" +
                   " */";
     }
-
     @Override
     public boolean validate(List<String> warnings) {
         return true;
